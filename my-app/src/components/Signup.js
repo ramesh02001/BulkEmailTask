@@ -85,7 +85,7 @@ const Signup = () => {
         setError(''); // Reset error message before making the request
 
         try {
-            const response = await axios.post('http://localhost:3000/api/auth/register', {
+            const response = await axios.post('https://bulkemailtaskbackend-1.onrender.com/api/auth/register', {
                 username,
                 email,
                 password,
