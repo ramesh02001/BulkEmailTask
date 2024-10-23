@@ -118,7 +118,7 @@ const AddUser = ({ Usernotes, setUsernotes }) => {
         const newEmail = { recipient, subject, message };
         
         try {
-            const res = await fetch('http://localhost:3000/api/email/user/send', {
+            const res = await fetch('https://bulkemailtaskbackend-1.onrender.com/api/email/user/send', {
                 method: "POST",
                 body: JSON.stringify(newEmail),
                 headers: {
