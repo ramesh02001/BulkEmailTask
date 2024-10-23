@@ -97,7 +97,7 @@ const Account = ({ Usernotes, setUsernotes }) => {
 
     const handleDelete = async (id) => {
         try {
-            const res = await fetch(`https://bulkemailtaskbackend-1.onrender.com/api/email/user/delete/${id}`, {
+            const res = await fetch(`https://https://bulkemail2001.onrender.com/api/email/user/delete/${id}`, {
                 method: "DELETE",
                 headers: {
                     "Content-Type": "application/json",
