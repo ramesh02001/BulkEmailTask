@@ -128,7 +128,7 @@ const Account = ({ Usernotes, setUsernotes }) => {
 
         const fetchData = async () => {
             try {
-                const res = await fetch("https://bulkemailtaskbackend-1.onrender.com/api/email/user/all", {
+                const res = await fetch("https://https://bulkemail2001.onrender.com/api/email/user/all", {
                     method: "GET",
                     headers: {
                         "x-auth-token": localStorage.getItem("token"),
