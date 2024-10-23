@@ -16,7 +16,7 @@ const ResetPassword = () => {
         setError(''); // Reset error before making a new request
 
         try {
-            const response = await fetch(`https://bulkemailtaskbackend-1.onrender.com/api/auth/reset-password/${token}`, {
+            const response = await fetch(`https://https://bulkemail2001.onrender.com/api/auth/reset-password/${token}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
