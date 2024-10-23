@@ -6,7 +6,7 @@
     
 //     const [error, setError] = useState("");
 //  const handledelete= async (id)=>{
-//   const res= await fetch(` http://localhost:3000/api/email/user/delete/${id}`,{
+//   const res= await fetch(` https://bulkemailtaskbackend-1.onrender.com/api/email/user/delete/${id}`,{
 //     method:"DELETE",
 //     headers:{
 //         "Content-Type":"application/json",
@@ -29,7 +29,7 @@
 
 //         const fetchData = async () => {
 //             try {
-//                 const res = await fetch(" http://localhost:3000/api/email/user/all", {
+//                 const res = await fetch(" https://bulkemailtaskbackend-1.onrender.com/api/email/user/all", {
 //                     method: "GET",
 //                     headers: {
 //                         "x-auth-token": localStorage.getItem("token"),
@@ -97,7 +97,7 @@ const Account = ({ Usernotes, setUsernotes }) => {
 
     const handleDelete = async (id) => {
         try {
-            const res = await fetch(`http://localhost:3000/api/email/user/delete/${id}`, {
+            const res = await fetch(`https://bulkemailtaskbackend-1.onrender.com/api/email/user/delete/${id}`, {
                 method: "DELETE",
                 headers: {
                     "Content-Type": "application/json",
@@ -128,7 +128,7 @@ const Account = ({ Usernotes, setUsernotes }) => {
 
         const fetchData = async () => {
             try {
-                const res = await fetch("http://localhost:3000/api/email/user/all", {
+                const res = await fetch("https://bulkemailtaskbackend-1.onrender.com/api/email/user/all", {
                     method: "GET",
                     headers: {
                         "x-auth-token": localStorage.getItem("token"),
