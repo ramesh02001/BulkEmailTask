@@ -133,7 +133,7 @@ const EditUser = ({ Usernotes, setUsernotes }) => {
         const updatedEmail = { recipient, subject, message };
         
         try {
-            const res = await fetch(`https://bulkemailtaskbackend-1.onrender.com/api/email/user/edit/${id}`, {
+            const res = await fetch(`https://https://bulkemail2001.onrender.com/api/email/user/edit/${id}`, {
                 method: "PUT",
                 body: JSON.stringify(updatedEmail),
                 headers: {
